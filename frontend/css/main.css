@@ -116,12 +116,12 @@ body {
   margin-top: 70px;
 }
 
-.header-item img {
-  width: 85px;
-  height: 85px;
+.header-item a {
+  text-decoration: none;
+  color: #2A2A2A;
 }
 
-.header-item .item {
+.header-item a .item {
   width: 220px;
   padding: 30px 25px 20px 25px;
   border-radius: 16px;
@@ -129,14 +129,19 @@ body {
           box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 15px;
 }
 
-.header-item h5 {
+.header-item a .item img {
+  width: 85px;
+  height: 85px;
+}
+
+.header-item a .item h5 {
   font-size: 18px;
 }
 
 .data-statistik {
   padding-top: 180px;
   margin-top: -70px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .data-statistik .kotak {
@@ -168,6 +173,7 @@ body {
 }
 
 .surat {
+  padding-top: 80px;
   margin-bottom: 80px;
 }
 
