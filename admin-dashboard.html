@@ -150,9 +150,9 @@
                        <li class="nav-item dropdown no-arrow">
                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                               <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
                                <img class="img-profile rounded-circle"
-                                   src="img/undraw_profile.svg">
+                                   src="frontend/images/undraw_profile.svg">
                            </a>
                            <!-- Dropdown - User Information -->
                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -276,8 +276,8 @@
                            </div>
                        </div>
                    </div>
-
-                   <div class="row">
+<!-- Table Start -->
+                   <div class="row mb-4">
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
                             <div class="card-body">
@@ -305,12 +305,12 @@
                                         </tfoot>
                                         <tbody>
                                             <tr>
-                                                <td>No. KK</td>
-                                                <td>NIK</td>
-                                                <td>Nama</td>
-                                                <td>Tempat/Tanggal Lahir</td>
-                                                <td>Alamat</td>
-                                                <td>Jenis Kelamin</td>
+                                                <td>3276010009200005</td>
+                                                <td>3276010009200005</td>
+                                                <td>Irwan Ardiansyah</td>
+                                                <td>Depok, 17 Januari 2021</td>
+                                                <td>Manchester, Inggris</td>
+                                                <td>Laki-Laki</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -319,7 +319,19 @@
                         </div>
                        </div>
                    </div>
+<!-- Table End -->
 
+<!-- Diagram Start -->
+                   <div class="row">
+                       <div class="col-xl-6 col-md-6 col-sm-12 mb-4 me-3">
+                            <h4>Diagram 1</h4>
+                                <canvas id="diagram-1"></canvas>
+                       </div>
+                       <div class="col-xl-6 col-md-6 col-sm-12 mb-4">
+                            <h4>Diagram 2</h4>
+                       </div>
+                   </div>
+<!-- Diagram End -->
                </div>
                <!-- /.container-fluid -->
 
@@ -379,17 +391,12 @@
    <script src="frontend/libraries/sb-admin/script/sb-admin-2.min.js"></script>
 
    <!-- Page level plugins -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/helpers.esm.min.js" integrity="sha512-urWBnIv+F027G24xDNigjxvIuwnWlWy94W2yx77VkISKLzKSohOKOubMDhtEF6LZcEH7gctmNSpxDqIW/zMmUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
    <!-- Page level plugins -->
    <script src="frontend/libraries/datatables/jquery.dataTables.min.js"></script>
    <script src="frontend/libraries/datatables/dataTables.bootstrap4.min.js"></script>
-
-   <script type="text/javascript">
-	$(document).ready(function(){
-		$('#dataTable').DataTable();
-	});
-</script>
+   <script src="frontend/script/main.js"></script>
 
 </body>
 
